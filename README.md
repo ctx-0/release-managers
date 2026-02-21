@@ -23,12 +23,13 @@ Directory of Python Release Managers since 1995.
 | 1.6 | Fred L. Drake, Jr. |
 
 
-## Building the Site
+## Build
 
-Generate `index.html` from the template and data:
+Generate `index.html` :
 
 ```bash
-python generate.py
+python ./generate.py
 ```
 
-
+## License
+MIT
