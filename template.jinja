@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python Release Managers</title>
+    <meta name="description" content="Directory of Python Release Managers since 1995." />
+    <meta name="keywords" content="Python, Release Managers, CPython, Python core developers, programming, open source" />
+    <meta property="og:title" content="Python Release Managers" />
+    <meta property="og:description" content="List of all Python Release Managers since 1995." />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Python Release Managers</h1>
+      <div class="subtitle">1995-2026 · 14 individuals</div>
+    </header>
+
+    <table>
+      <tbody>
+        {%- for manager in managers %}
+        <tr class="{% if manager.current %}current{% endif %}">
+          <td class="versions">{{ manager.versions | join(", ") }}</td>
+          <td class="avatar-cell"><img src="{{ manager.avatar }}" alt="" class="avatar"></td>
+          <td class="name">{{ manager.name }}</td>
+          <td class="links">
+            {%- for link in manager.links %}
+            <span class="social"><a href="{{ link.url }}">{{ link.text }}</a></span>
+            {%- endfor %}
+            {%- if manager.peps or manager.extras %}
+            <br />
+            {%- endif %}
+            {%- for pep in manager.peps %}
+            <a href="{{ pep.url }}">{{ pep.text }}</a>{% if not loop.last %} · {% endif %}
+            {%- endfor %}
+            {%- if manager.peps and manager.extras %} · {% endif %}
+            {%- for extra in manager.extras %}
+            <a href="{{ extra.url }}">{{ extra.text }}</a>{% if not loop.last %} · {% endif %}
+            {%- endfor %}
+          </td>
+          <td class="notes">
+            {%- for tag in manager.tags %}
+            <span class="tag">{{ tag }}</span>
+            {%- endfor %}
+            {{ manager.notes }}
+          </td>
+        </tr>
+        {%- endfor %}
+      </tbody>
+    </table>
+
+    <footer>
+      <div class="last-updated">
+        Last Updated February 7, 2026
+      </div>
+      <div class="correction-request">
+        Found an issue? <a href="https://github.com/ctx-0/release-managers/issues">Raise a PR or Open an issue</a>.
+      </div>
+    </footer>
+  </body>
+</html>

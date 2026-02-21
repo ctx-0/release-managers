@@ -1,0 +1,271 @@
+{
+  "managers": [
+    {
+      "versions": ["3.16", "3.17"],
+      "name": "Savannah Ostrowski",
+      "github": "savannahostrowski",
+      "avatar": "https://github.com/savannahostrowski.png",
+      "links": [
+        {"text": "savannah.dev", "url": "https://savannah.dev"},
+        {"text": "gh", "url": "https://github.com/savannahostrowski"},
+        {"text": "bsky", "url": "https://bsky.app/profile/savannah.dev"},
+        {"text": "x", "url": "https://twitter.com/SavOstrowski"}
+      ],
+      "peps": [],
+      "extras": [
+        {"text": "announcement", "url": "https://discuss.python.org/t/welcome-the-3-16-and-3-17-release-manager-savannah-bailey/100163"},
+        {"text": "interview", "url": "https://www.youtube.com/watch?v=IUn8r-FPlwY"}
+      ],
+      "notes": "Steering Council member (2026 term). Works on CPython JIT compiler at FastAPI Labs. United States.",
+      "tags": ["Current"],
+      "current": true
+    },
+    {
+      "versions": ["3.14", "3.15"],
+      "name": "Hugo van Kemenade",
+      "github": "hugovk",
+      "avatar": "https://github.com/hugovk.png",
+      "links": [
+        {"text": "hugovk.dev", "url": "https://hugovk.dev"},
+        {"text": "gh", "url": "https://github.com/hugovk"},
+        {"text": "mastodon", "url": "https://mastodon.social/@hugovk"}
+      ],
+      "peps": [
+        {"text": "PEP 745", "url": "https://peps.python.org/pep-0745/"},
+        {"text": "PEP 790", "url": "https://peps.python.org/pep-0790/"}
+      ],
+      "extras": [
+        {"text": "announcement", "url": "https://discuss.python.org/t/python-3-14-3-15-release-manager/51812"}
+      ],
+      "notes": "PSF Fellow. Pillow maintainer and release manager since 2019. PEP Editor. Sovereign Tech Fellow (2024). Helsinki, Finland.",
+      "tags": ["Active"],
+      "current": true
+    },
+    {
+      "versions": ["3.12", "3.13"],
+      "name": "Thomas Wouters",
+      "github": "Yhg1s",
+      "avatar": "https://github.com/yhg1s.png",
+      "links": [
+        {"text": "gh", "url": "https://github.com/Yhg1s"},
+        {"text": "mastodon", "url": "https://social.coop/@Yhg1s"},
+        {"text": "thomaswouters.com", "url": "https://www.thomaswouters.com"}
+      ],
+      "peps": [
+        {"text": "PEP 693", "url": "https://peps.python.org/pep-0693/"},
+        {"text": "PEP 719", "url": "https://peps.python.org/pep-0719/"}
+      ],
+      "extras": [
+        {"text": "interview", "url": "https://talkpython.fm/episodes/show/532/2025-python-year-in-review"}
+      ],
+      "notes": "PSF Distinguished Service Award (2025). Steering Council member. Former PSF Board Chair (2015-2019). Production engineer at Meta. Core developer since 2000. Amsterdam, NL.",
+      "tags": ["Active"],
+      "current": true
+    },
+    {
+      "versions": ["3.10", "3.11"],
+      "name": "Pablo Galindo Salgado",
+      "github": "pablogsal",
+      "avatar": "https://github.com/pablogsal.png",
+      "links": [
+        {"text": "pablogsal.com", "url": "https://pablogsal.com"},
+        {"text": "gh", "url": "https://github.com/pablogsal"},
+        {"text": "bsky", "url": "https://bsky.app/profile/pablogsal.com"}
+      ],
+      "peps": [
+        {"text": "PEP 619", "url": "https://peps.python.org/pep-0619/"},
+        {"text": "PEP 664", "url": "https://peps.python.org/pep-0664/"}
+      ],
+      "extras": [],
+      "notes": "Steering Council member. Works at Bloomberg. Theoretical physicist (black hole thermodynamics PhD). Maintains buildbot.python.org infrastructure. Managed 3.10 pattern matching release and error message improvements. London, UK.",
+      "tags": [],
+      "current": false
+    },
+    {
+      "versions": ["3.8", "3.9"],
+      "name": "Łukasz Langa",
+      "github": "ambv",
+      "avatar": "https://github.com/ambv.png",
+      "links": [
+        {"text": "lukasz.langa.pl", "url": "https://lukasz.langa.pl"},
+        {"text": "gh", "url": "https://github.com/ambv"},
+        {"text": "x", "url": "https://twitter.com/llanga"},
+        {"text": "bsky", "url": "https://bsky.app/profile/lukasz.langa.pl"},
+        {"text": "in", "url": "https://www.linkedin.com/in/lukasz-langa"}
+      ],
+      "peps": [
+        {"text": "PEP 569", "url": "https://peps.python.org/pep-0569/"},
+        {"text": "PEP 596", "url": "https://peps.python.org/pep-0596/"}
+      ],
+      "extras": [],
+      "notes": "PSF CPython Developer in Residence (2021-present). Creator of Black code formatter. Asyncio core maintainer. Proposed 9-month release cadence (PEP 596). Poznań, Poland.",
+      "tags": [],
+      "current": false
+    },
+    {
+      "versions": ["3.6", "3.7"],
+      "name": "Ned Deily",
+      "github": "ned-deily",
+      "avatar": "https://github.com/ned-deily.png",
+      "links": [
+        {"text": "gh", "url": "https://github.com/ned-deily"},
+        {"text": "in", "url": "https://www.linkedin.com/in/neddeily"}
+      ],
+      "peps": [
+        {"text": "PEP 494", "url": "https://peps.python.org/pep-0494/"},
+        {"text": "PEP 537", "url": "https://peps.python.org/pep-0537/"}
+      ],
+      "extras": [],
+      "notes": "Long-time macOS installer maintainer since 2015. NYC Python co-organizer. Managed f-string release. NYC Metro.",
+      "tags": [],
+      "current": false
+    },
+    {
+      "versions": ["3.4", "3.5"],
+      "name": "Larry Hastings",
+      "github": "larryhastings",
+      "avatar": "https://github.com/larryhastings.png",
+      "links": [
+        {"text": "larryhastings.com", "url": "http://www.larryhastings.com"},
+        {"text": "gh", "url": "https://github.com/larryhastings"}
+      ],
+      "peps": [
+        {"text": "PEP 429", "url": "https://peps.python.org/pep-0429/"},
+        {"text": "PEP 478", "url": "https://peps.python.org/pep-0478/"}
+      ],
+      "extras": [],
+      "notes": "Created \"The Gilectomy\" (experimental GIL removal). Co-chair Python Language Summit. Managed asyncio integration and authored PEP 101 (Doing Python Releases 101). Ojai, CA.",
+      "tags": [],
+      "current": false
+    },
+    {
+      "versions": ["3.2", "3.3"],
+      "name": "Georg Brandl",
+      "github": "birkenfeld",
+      "avatar": "https://github.com/birkenfeld.png",
+      "links": [
+        {"text": "gh", "url": "https://github.com/birkenfeld"}
+      ],
+      "peps": [
+        {"text": "PEP 392", "url": "https://peps.python.org/pep-0392/"},
+        {"text": "PEP 398", "url": "https://peps.python.org/pep-0398/"}
+      ],
+      "extras": [],
+      "notes": "Creator of Sphinx documentation system. Long-time documentation editor (1995-2006). Core developer since 2005. Major AST module contributor. Final RM for Python 3.2 (EOL Feb 2016).",
+      "tags": [],
+      "current": false
+    },
+    {
+      "versions": ["2.7", "3.1"],
+      "name": "Benjamin Peterson",
+      "github": "benjaminp",
+      "avatar": "https://github.com/benjaminp.png",
+      "links": [
+        {"text": "benjamin-peterson.org", "url": "http://benjamin-peterson.org"},
+        {"text": "gh", "url": "https://github.com/benjaminp"}
+      ],
+      "peps": [
+        {"text": "PEP 373", "url": "https://peps.python.org/pep-0373/"},
+        {"text": "PEP 375", "url": "https://peps.python.org/pep-0375/"}
+      ],
+      "extras": [],
+      "notes": "Became release manager at age 15. Harvard graduate. Author of `six` compatibility library. Managed final Python 2 release (2.7.18, April 2020), extending support by a decade. PEP 466 (network security) author.",
+      "tags": [],
+      "current": false
+    },
+    {
+      "versions": ["2.6", "3.0"],
+      "name": "Barry Warsaw",
+      "github": "warsaw",
+      "avatar": "https://github.com/warsaw.png",
+      "links": [
+        {"text": "barry.warsaw.us", "url": "https://barry.warsaw.us"},
+        {"text": "gh", "url": "https://github.com/warsaw"},
+        {"text": "mastodon", "url": "https://mastodon.social/@pumpichank"},
+        {"text": "x", "url": "https://twitter.com/pumpichank"}
+      ],
+      "peps": [
+        {"text": "PEP 361", "url": "https://peps.python.org/pep-0361/"}
+      ],
+      "extras": [
+        {"text": "interview", "url": "https://talkpython.fm/episodes/show/532/2025-python-year-in-review"}
+      ],
+      "notes": "Co-authored PEP 1 (PEP process). GNU Mailman project leader. Jython maintainer. Canonical/Ubuntu (2007-2009), currently at NVIDIA. Managed dual 2.6/3.0 transition release. Also co-RM for 2.2-2.4. San Francisco, CA.",
+      "tags": ["PEP 1"],
+      "current": false
+    },
+    {
+      "versions": ["2.4", "2.5"],
+      "name": "Anthony Baxter",
+      "github": "anthonybaxter",
+      "avatar": "https://github.com/anthonybaxter.png",
+      "links": [
+        {"text": "in", "url": "https://www.linkedin.com/in/anthonybaxter"}
+      ],
+      "peps": [
+        {"text": "PEP 320", "url": "https://peps.python.org/pep-0320/"},
+        {"text": "PEP 356", "url": "https://peps.python.org/pep-0356/"}
+      ],
+      "extras": [],
+      "notes": "Longest-serving release manager tenure (4+ years). Google Australia (2006-2013). Built Google Crisis Response tools. First to introduce release candidate cycles. Co-RM for 2.4 with Barry Warsaw and Raymond Hettinger. AUSOUG conference chair. Melbourne, Australia.",
+      "tags": [],
+      "current": false
+    },
+    {
+      "versions": ["2.0", "2.1", "2.3"],
+      "name": "Jeremy Hylton",
+      "github": "jeremyhylton",
+      "avatar": "https://github.com/jeremyhylton.png",
+      "links": [
+        {"text": "in", "url": "https://www.linkedin.com/in/jhylton"},
+        {"text": "blog", "url": "https://jeremyhylton.blogspot.com"},
+        {"text": "legacy", "url": "http://www.python.org/~jeremy/"}
+      ],
+      "peps": [
+        {"text": "PEP 200", "url": "https://peps.python.org/pep-0200/"},
+        {"text": "PEP 226", "url": "https://peps.python.org/pep-0226/"},
+        {"text": "PEP 283", "url": "https://peps.python.org/pep-0283/"}
+      ],
+      "extras": [],
+      "notes": "MIT graduate. Worked at CNRI with Guido van Rossum. Led CPython development 2000-2002. Built early AST compiler infrastructure. Managed Unicode support and list comprehensions release (2.0). Co-RM for 2.3 with Barry Warsaw and Tim Peters. Later at Google (2005-2011). Brooklyn, NY.",
+      "tags": [],
+      "current": false
+    },
+    {
+      "versions": ["2.4"],
+      "name": "Raymond Hettinger",
+      "github": "rhettinger",
+      "avatar": "https://github.com/rhettinger.png",
+      "links": [
+        {"text": "blog", "url": "https://rhettinger.wordpress.com"},
+        {"text": "gh", "url": "https://github.com/rhettinger"},
+        {"text": "x", "url": "https://twitter.com/raymondh"}
+      ],
+      "peps": [
+        {"text": "PEP 320", "url": "https://peps.python.org/pep-0320/"}
+      ],
+      "extras": [],
+      "notes": "Co-RM for 2.4 alongside Anthony Baxter and Barry Warsaw. Core developer since 2001. Creator of itertools module. Principal engineer at Variation. San Francisco Bay Area.",
+      "tags": [],
+      "current": false
+    },
+    {
+      "versions": ["1.6"],
+      "name": "Fred L. Drake, Jr.",
+      "github": "freddrake",
+      "avatar": "https://github.com/freddrake.png",
+      "links": [
+        {"text": "fdrake.net", "url": "http://www.fdrake.net"},
+        {"text": "gh", "url": "https://github.com/freddrake"},
+        {"text": "in", "url": "https://www.linkedin.com/in/fdrake"}
+      ],
+      "peps": [
+        {"text": "PEP 160", "url": "https://peps.python.org/pep-0160/"}
+      ],
+      "extras": [],
+      "notes": "Long-time documentation editor (1995-2006). Converted Python docs to SGML/XML (Docutils). Release Coordinator for PythonLabs at CNRI. First PEP for release management (PEP 160). Reston, VA.",
+      "tags": [],
+      "current": false
+    }
+  ]
+}
