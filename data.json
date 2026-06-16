@@ -1,4 +1,9 @@
 {
+  "site": {
+    "url": "https://python-release-managers.com",
+    "title": "Python Release Managers",
+    "description": "The definitive directory of Python Release Managers from 1995 to the present day."
+  },
   "managers": [
     {
       "versions": ["3.16", "3.17"],

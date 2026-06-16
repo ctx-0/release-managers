@@ -11,7 +11,7 @@ with open("data.json", encoding="utf-8") as f:
 # Render template
 env = Environment(loader=FileSystemLoader("."), autoescape=select_autoescape(["html"]))
 template = env.get_template("template.jinja")
-html = template.render(managers=data['managers'])
+html = template.render(**data)
 
 # Write output
 with open("index.html", "w", encoding="utf-8") as f:
