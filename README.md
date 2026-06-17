@@ -16,9 +16,10 @@ Directory of Python Release Managers since 1995.
 | 3.4-3.5 | Larry Hastings |
 | 3.2-3.3 | Georg Brandl |
 | 2.7, 3.1 | Benjamin Peterson |
-| 2.6, 3.0 | Barry Warsaw |
+| 2.2, 2.3, 2.4, 2.6, 3.0 | Barry Warsaw |
 | 2.4-2.5 | Anthony Baxter |
 | 2.0-2.1, 2.3 | Jeremy Hylton |
+| 2.3 | Tim Peters |
 | 2.4 | Raymond Hettinger |
 | 1.6 | Fred L. Drake, Jr. |
 
